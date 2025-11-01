@@ -1,7 +1,7 @@
 1-->The 8-Puzzle Problem is a sliding puzzle on a 3×3 grid with 8 tiles and one empty space. The goal is to reach the target configuration by sliding tiles.
-This project solves it using two AI techniques:
-- Best-First Search (Manhattan Distance): Selects the move with the smallest total distance of tiles from their goal positions.
-- Hill Climbing (Misplaced Tile): Moves to the neighbor with fewer misplaced tiles until no better move exists.
+using two AI techniques:
+Best-First Search (Manhattan Distance): Selects the move with the smallest total distance of tiles from their goal positions.
+Hill Climbing (Misplaced Tile): Moves to the neighbor with fewer misplaced tiles until no better move exists.
 Best-First Search guarantees a solution but takes more time (O(bᵈ)).
 Hill Climbing is faster but can get stuck in local minima (O(bᵈ)).
 2-->A Magic Square is an n × n grid where each row, column, and diagonal adds up to the same sum.
